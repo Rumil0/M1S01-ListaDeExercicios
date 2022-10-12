@@ -1,0 +1,17 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+
+body {
+    background-color: yellow;
+}
+
+p {
+    font-size: 14px;
+}
+
+.centralizar {
+    text-align: center;
+}
