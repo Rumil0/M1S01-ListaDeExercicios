@@ -1,0 +1,42 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+
+    background-image: url("/Assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: yellow;
+}
+
+p {
+    font-size: 14px;
+}
+
+.coluna{
+    float: left;
+    width: calc(100%/3);
+}
+
+.linha::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.borda {
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px;
+    border-color: black;
+    margin: 20px;
+    width: 177px;
+    height: 107px;
+}
